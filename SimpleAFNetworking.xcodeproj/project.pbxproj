@@ -81,6 +81,8 @@
 		DC99BEC017965A3E0054E65D /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		DC99BEC117965A3E0054E65D /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		DC99BEC217965A3E0054E65D /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		DC99BECC1796656B0054E65D /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
+		DC99BECD179665CD0054E65D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,8 @@
 		DC99BE801796581C0054E65D /* SimpleAFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				DC99BECD179665CD0054E65D /* README.md */,
+				DC99BECC1796656B0054E65D /* ScreenShot.png */,
 				DC99BEAF17965A3E0054E65D /* AFNetworking */,
 				DC99BE891796581C0054E65D /* IGAppDelegate.h */,
 				DC99BE8A1796581C0054E65D /* IGAppDelegate.m */,

@@ -40,7 +40,8 @@
     NSURL *url = [[NSURL alloc] initWithString:@"https://itunes.apple.com/search?term=bruce+willis&entity=movie"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     
-    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request
+       success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         self.results = [JSON objectForKey:@"results"];
         [self.activityIndicatorView stopAnimating];
         [self.tableView setHidden:NO];
