@@ -12,7 +12,7 @@ Description
 Uses iTunes search to retrieve a list of movies that Bruce Willis has appeared in.
 see the [link](https://gist.github.com/iggym/6023041 "iTunes feeds") for more info.
 
-https://gist.github.com/iggym/6023041
+
 
 ####The View Controller
 
